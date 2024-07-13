@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Friend Request</title>
+ <style>
+  .pic{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 12px;
+  
+}
+.p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+}
+.text{
+  margin-left: 8px;
+  margin-bottom: 12px;
+  color: rgb(100, 100, 100);
+}
+.click{
+  background-color: rgb(24, 119, 242);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.click:hover{
+  opacity: 0.1px;
+  transition: background-color .15;
+  background-color: rgb(50, 110, 187)
+
+}
+.click:active{
+  opacity: 0.3px;
+  transition: background-color .15;
+  background-color: rgb(4, 47, 102)
+}
+.block{
+  display: inline-block;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+}
+
+ </style>
+</head>
+<body>
+<div class="block">
+
+<img class="pic" src="cat.jpg">
+<p class="name">
+  Oliver
+</p>
+<p class="text">
+  2 mutual friends 
+</p>
+<button class="click">
+  Add Friend
+</button>
+
+</div>
+</body>
+</html>
