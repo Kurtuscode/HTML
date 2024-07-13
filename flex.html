@@ -1,9 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title> Best Gamer </title>
+    <style >
+      html,.grad{background-image: linear-gradient(red, yellow); 
+        height: 100%;}
+     .grad{
+        background-image: linear-gradient(red, blue);
+        height: 50px;
+        margin-bottom: 200px;
+    }
+    .col{
+      color: blue;
+    }
+    .video{
+      display: flex;
+      flex-direction: row;
+      column-gap: 30px;
+      justify-content: center;
+    }
+
+      </style>
   </head>
   <body>
-    
+    <div class="grad"><center><h1 class="col"> I am the best player in this world </h1>
+      <marquee><h2> I am Sundeep Kumar Swain</h2> </marquee></center></div>
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sf4Mqui61Fg?si=iv2OkbR6OEWJKvBV" 
+        title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; picture-in-picture; 
+        web-share" allowfullscreen></iframe>
+        <div>
+          <form action="/action_page.php" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
   </body>
 </html>
